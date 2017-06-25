@@ -93,7 +93,7 @@ body {
 .section-title {
     text-transform: uppercase;
     text-decoration: none;
-    color: white;
+    color: #ffc947 !important;
     font-size: 200%;
     font-weight: 200;
 }
