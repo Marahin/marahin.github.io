@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:200,300,300i,400,400i&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli', sans-serif;
     background-color: black;
 }
 
