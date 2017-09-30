@@ -194,4 +194,12 @@ h2.with-creds {
     margin-bottom: 15px;
 }
 
-.icon
+span.laquo {
+    display: none;
+    color: orange !important;
+}
+
+pre {
+    display: inline;
+    margin-right: 1em;
+}
