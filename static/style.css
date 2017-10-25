@@ -203,3 +203,11 @@ pre {
     display: inline;
     margin-right: 1em;
 }
+
+.devicon-inline {
+    display: inline;
+}
+
+.project-name {
+    margin-left: 2%;
+}
