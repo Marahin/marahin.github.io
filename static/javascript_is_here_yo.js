@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 	/* Get blog post data */
 	var lastBlogPostSelector = '#lastBlogPost';
-	var fetchBase = 'https://moor.3lab.re/'
+	var fetchBase = 'https://moor.marahin.pl/'
 	var blogBase = 'https://blog.marahin.pl/'
 	var formatParam = '?format=json'
 	var fetchUrl = fetchBase + encodeURIComponent(blogBase + formatParam);
