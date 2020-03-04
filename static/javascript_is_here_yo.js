@@ -10,9 +10,9 @@ $(document).ready(function(){
 
 	/* Get blog post data */
 	var lastBlogPostSelector = '#lastBlogPost';
-	var fetchBase = 'https://moor.marahin.pl/'
-	var blogBase = 'https://blog.marahin.pl/'
-	var formatParam = '?format=json'
+	var fetchBase = 'https://moor2.marahin.pl/api/medium?token=not-so-secret-token&url=';
+	var blogBase = 'https://blog.marahin.pl/';
+	var formatParam = '?format=json';
 	var fetchUrl = fetchBase + encodeURIComponent(blogBase + formatParam);
 	$.get(fetchUrl, function(data) {
 		var postId = getLastPostIdFrom(data);
